@@ -6,17 +6,17 @@ void ofApp::setup(){
     ofBackground(0);
     ofEnableSmoothing();
     
-    
+    this->player = new MyOwnUnit(ofGetWidth()/2,ofGetHeight()-100);
 }
 
 //--------------------------------------------------------------
 void ofApp::update(){
-
+    this->player->update();
 }
 
 //--------------------------------------------------------------
 void ofApp::draw(){
-
+    this->player->display();
 }
 
 //--------------------------------------------------------------
