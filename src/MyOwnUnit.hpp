@@ -16,6 +16,7 @@ public:
     MyOwnUnit(float x,float y);
     void update();
     void display();
+    void edgeCheck();
 };
 
 #endif /* MyOwnUnit_hpp */

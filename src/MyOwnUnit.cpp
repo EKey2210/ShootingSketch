@@ -16,10 +16,14 @@ MyOwnUnit::MyOwnUnit(float x,float y){
 }
 
 void MyOwnUnit::update(){
+    this->acceleration = vec2(ofRandom(-0.5,0.5),ofRandom(-0.5,0.5)); //test
+    
     this->velocity += this->acceleration;
     this->position += this->velocity;
     
     this->angle = atan2f(this->velocity.y, this->velocity.x) + HALF_PI;
+    
+    edgeCheck();
 }
 
 void MyOwnUnit::display(){
@@ -34,4 +38,21 @@ void MyOwnUnit::display(){
     ofVertex(this->radius,this->radius);
     ofEndShape(OF_CLOSE);
     ofPopMatrix();
+}
+
+void MyOwnUnit::edgeCheck(){
+    if(this->position.x < -this->radius){
+        this->position.x = ofGetWidth() + this->radius;
+    }
+    
+    if(this->position.x > ofGetWidth() + this->radius){
+        this->position.x = -this->radius;
+    }
+    if(this->position.y < -this->radius){
+        this->position.y = ofGetHeight() + this->radius;
+    }
+    
+    if(this->position.y > ofGetHeight() + this->radius){
+        this->position.y = -this->radius;
+    }
 }
