@@ -1,6 +1,7 @@
 #pragma once
 
 #include "ofMain.h"
+#include "MyOwnUnit.hpp"
 
 class ofApp : public ofBaseApp{
 public:
@@ -20,6 +21,6 @@ public:
     void dragEvent(ofDragInfo dragInfo);
     void gotMessage(ofMessage msg);
     
-    
+    MyOwnUnit* player;
     
 };

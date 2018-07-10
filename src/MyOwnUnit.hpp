@@ -9,5 +9,13 @@
 #define MyOwnUnit_hpp
 
 #include <stdio.h>
+#include "Unit.hpp"
+
+class MyOwnUnit : public Unit{
+public:
+    MyOwnUnit(float x,float y);
+    void update();
+    void display();
+};
 
 #endif /* MyOwnUnit_hpp */
