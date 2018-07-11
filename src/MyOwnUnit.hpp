@@ -2,7 +2,7 @@
 //  MyOwnUnit.hpp
 //  ShootingSketch
 //
-//  Created by KiryuYamashita on 2018/07/04.
+//  Created by EKey2210 on 2018/07/04.
 //
 
 #ifndef MyOwnUnit_hpp
