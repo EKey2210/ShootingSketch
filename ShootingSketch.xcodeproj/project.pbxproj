@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		1B8965A220ED07D80075DA47 /* Unit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B8965A020ED07D80075DA47 /* Unit.cpp */; };
 		1B8965A520ED07E50075DA47 /* MyOwnUnit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B8965A320ED07E50075DA47 /* MyOwnUnit.cpp */; };
+		1BC61A7220F7AAF3009327FE /* ParticleSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1BC61A7020F7AAF3009327FE /* ParticleSystem.cpp */; };
+		1BC61A7520F7AAFE009327FE /* Particle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1BC61A7320F7AAFE009327FE /* Particle.cpp */; };
 		1CD33E884D9E3358252E82A1 /* ofxToggle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 907C5B5E104864A2D3A25745 /* ofxToggle.cpp */; };
 		483908258D00B98B4BE69F07 /* ofxLabel.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 78D67A00EB899FAC09430597 /* ofxLabel.cpp */; };
 		5CBB2AB3A60F65431D7B555D /* ofxButton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C88333E71C9457E441C33474 /* ofxButton.cpp */; };
@@ -62,6 +64,10 @@
 		1B8965A120ED07D80075DA47 /* Unit.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Unit.hpp; sourceTree = "<group>"; };
 		1B8965A320ED07E50075DA47 /* MyOwnUnit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MyOwnUnit.cpp; sourceTree = "<group>"; };
 		1B8965A420ED07E50075DA47 /* MyOwnUnit.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MyOwnUnit.hpp; sourceTree = "<group>"; };
+		1BC61A7020F7AAF3009327FE /* ParticleSystem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = ParticleSystem.cpp; sourceTree = "<group>"; };
+		1BC61A7120F7AAF3009327FE /* ParticleSystem.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = ParticleSystem.hpp; sourceTree = "<group>"; };
+		1BC61A7320F7AAFE009327FE /* Particle.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Particle.cpp; sourceTree = "<group>"; };
+		1BC61A7420F7AAFE009327FE /* Particle.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Particle.hpp; sourceTree = "<group>"; };
 		1C0DA2561397A7DE0246858B /* ofxGuiGroup.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxGuiGroup.h; path = ../../../addons/ofxGui/src/ofxGuiGroup.h; sourceTree = SOURCE_ROOT; };
 		2834D88A62CD23F3DE2C47D1 /* ofxButton.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxButton.h; path = ../../../addons/ofxGui/src/ofxButton.h; sourceTree = SOURCE_ROOT; };
 		44B351490B620D04E1E7C52D /* ofxInputField.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxInputField.cpp; path = ../../../addons/ofxGui/src/ofxInputField.cpp; sourceTree = SOURCE_ROOT; };
@@ -183,6 +189,10 @@
 				1B8965A120ED07D80075DA47 /* Unit.hpp */,
 				1B8965A320ED07E50075DA47 /* MyOwnUnit.cpp */,
 				1B8965A420ED07E50075DA47 /* MyOwnUnit.hpp */,
+				1BC61A7020F7AAF3009327FE /* ParticleSystem.cpp */,
+				1BC61A7120F7AAF3009327FE /* ParticleSystem.hpp */,
+				1BC61A7320F7AAFE009327FE /* Particle.cpp */,
+				1BC61A7420F7AAFE009327FE /* Particle.hpp */,
 			);
 			path = src;
 			sourceTree = SOURCE_ROOT;
@@ -298,6 +308,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E4B69E200A3A1BDC003C02F2 /* main.cpp in Sources */,
+				1BC61A7520F7AAFE009327FE /* Particle.cpp in Sources */,
 				E4B69E210A3A1BDC003C02F2 /* ofApp.cpp in Sources */,
 				856AA354D08AB4B323081444 /* ofxBaseGui.cpp in Sources */,
 				853E0BA2F448076739446874 /* ofxColorPicker.cpp in Sources */,
@@ -305,6 +316,7 @@
 				1CD33E884D9E3358252E82A1 /* ofxToggle.cpp in Sources */,
 				5CBB2AB3A60F65431D7B555D /* ofxButton.cpp in Sources */,
 				1B8965A220ED07D80075DA47 /* Unit.cpp in Sources */,
+				1BC61A7220F7AAF3009327FE /* ParticleSystem.cpp in Sources */,
 				B266578FC55D23BFEBC042E7 /* ofxGuiGroup.cpp in Sources */,
 				852E0891794923EE7583C621 /* ofxInputField.cpp in Sources */,
 				483908258D00B98B4BE69F07 /* ofxLabel.cpp in Sources */,
