@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B70B8DF2101D24D00679208 /* EnemyUnit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B70B8DD2101D24D00679208 /* EnemyUnit.cpp */; };
 		1B8965A220ED07D80075DA47 /* Unit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B8965A020ED07D80075DA47 /* Unit.cpp */; };
 		1B8965A520ED07E50075DA47 /* MyOwnUnit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1B8965A320ED07E50075DA47 /* MyOwnUnit.cpp */; };
 		1BC61A7220F7AAF3009327FE /* ParticleSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1BC61A7020F7AAF3009327FE /* ParticleSystem.cpp */; };
@@ -60,6 +61,8 @@
 		15F2C6477A769C03A56D1401 /* ofxSlider.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxSlider.cpp; path = ../../../addons/ofxGui/src/ofxSlider.cpp; sourceTree = SOURCE_ROOT; };
 		17E65988300FBD9AAA2CD0CA /* ofxGui.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; name = ofxGui.h; path = ../../../addons/ofxGui/src/ofxGui.h; sourceTree = SOURCE_ROOT; };
 		181D363B6DD54D1FA6309C43 /* ofxColorPicker.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; name = ofxColorPicker.cpp; path = ../../../addons/ofxGui/src/ofxColorPicker.cpp; sourceTree = SOURCE_ROOT; };
+		1B70B8DD2101D24D00679208 /* EnemyUnit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = EnemyUnit.cpp; sourceTree = "<group>"; };
+		1B70B8DE2101D24D00679208 /* EnemyUnit.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = EnemyUnit.hpp; sourceTree = "<group>"; };
 		1B8965A020ED07D80075DA47 /* Unit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = Unit.cpp; sourceTree = "<group>"; };
 		1B8965A120ED07D80075DA47 /* Unit.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Unit.hpp; sourceTree = "<group>"; };
 		1B8965A320ED07E50075DA47 /* MyOwnUnit.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MyOwnUnit.cpp; sourceTree = "<group>"; };
@@ -193,6 +196,8 @@
 				1BC61A7120F7AAF3009327FE /* ParticleSystem.hpp */,
 				1BC61A7320F7AAFE009327FE /* Particle.cpp */,
 				1BC61A7420F7AAFE009327FE /* Particle.hpp */,
+				1B70B8DD2101D24D00679208 /* EnemyUnit.cpp */,
+				1B70B8DE2101D24D00679208 /* EnemyUnit.hpp */,
 			);
 			path = src;
 			sourceTree = SOURCE_ROOT;
@@ -322,6 +327,7 @@
 				483908258D00B98B4BE69F07 /* ofxLabel.cpp in Sources */,
 				F285EB3169F1566CA3D93C20 /* ofxPanel.cpp in Sources */,
 				1B8965A520ED07E50075DA47 /* MyOwnUnit.cpp in Sources */,
+				1B70B8DF2101D24D00679208 /* EnemyUnit.cpp in Sources */,
 				837220E80EB56CD44AD27F2A /* ofxSlider.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

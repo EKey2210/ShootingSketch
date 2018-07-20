@@ -2,6 +2,7 @@
 
 #include "ofMain.h"
 #include "MyOwnUnit.hpp"
+#include "EnemyUnit.hpp"
 
 class ofApp : public ofBaseApp{
 public:
@@ -22,5 +23,5 @@ public:
     void gotMessage(ofMessage msg);
     
     MyOwnUnit* player;
-    
+    EnemyUnit* enemy;
 };
