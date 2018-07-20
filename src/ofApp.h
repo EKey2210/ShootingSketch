@@ -24,4 +24,5 @@ public:
     
     MyOwnUnit* player;
     EnemyUnit* enemy;
+    
 };

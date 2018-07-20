@@ -2,7 +2,7 @@
 //  EnemyUnit.cpp
 //  ShootingSketch
 //
-//  Created by KiryuYamashita on 2018/07/20.
+//  Created by EKey2210 on 2018/07/20.
 //
 
 #include "EnemyUnit.hpp"
